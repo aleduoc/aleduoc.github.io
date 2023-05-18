@@ -1,0 +1,145 @@
+/* Archivo completo */
+* {
+    font-family: 'calibri';
+}
+
+/* Menu */
+
+header {
+    background-color: #071a2b;
+}
+
+hr {
+    color: white;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.nav-item a {
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.nav-item a:hover {
+    color: rgb(84, 126, 203);
+}
+
+.navbar-nav {
+    padding: 0;
+}
+
+/* ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-shared {
+    
+    width: 430px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-shared h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #1f53c5;
+    font-size: 15px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.form-shared .botons {
+    width: 100%;
+    color: white;
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.errores {
+    color: red;
+    display: none;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #071a2b;
+    padding: 1.5rem;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+    
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+footer a:hover {
+    color: rgb(84, 126, 203);
+}
+
+#redes {
+    text-align: center;
+    padding: 1em;
+}
+
+/* Estilo  mensaje */
+.mensaje-enviado {
+    background-color: #071a2b; 
+    color: #ffffff; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 20px; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    display: none; 
+  }
+  
+  

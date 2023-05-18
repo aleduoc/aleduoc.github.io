@@ -1,0 +1,91 @@
+/* Archivo completo */
+* {
+    font-family: 'calibri';
+}
+
+/* Menu */
+
+header {
+    background-color: #071a2b;
+}
+
+hr {
+    color: white;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.nav-item a {
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.nav-item a:hover {
+    color: rgb(84, 126, 203);
+}
+
+.navbar-nav {
+    padding: 0;
+}
+
+/* ---- */
+
+#info {
+
+    box-shadow: 4px 8px 8px;
+    padding: 1em;
+    
+}
+
+
+#info p{
+    text-align: center;
+    font-size: large;
+    color: #071a2b;
+    font-style: italic;
+
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #071a2b;
+    padding: 1.5rem;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+    
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+footer a:hover {
+    color: rgb(84, 126, 203);
+}
+
+#redes {
+    text-align: center;
+    padding: 1em;
+}

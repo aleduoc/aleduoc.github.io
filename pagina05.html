@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Zero</title>
+    <link rel="shortcut icon" href="logo-arte.jpg">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="pagina05.css"/>
+    <!-- JS -->
+<script src="pagfun.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #071a2b">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo-arte.jpg" width="250px" height="120px">
+          </a>
+          <button class="navbar-toggler" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color: white;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="pagina01.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina02.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina03.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina04.html">Comparte con Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina05.html">Visualiza tu cuadro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina06.html">Genera obras</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <h1>Presentación</h1>
+</header>
+
+
+<div id="pared">
+<img id="user-wall" src="fotopared.jpg" alt="imagen pared">
+</div>
+
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen1.jpg" class="img-fluid "  alt="El leon y el unicornio" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen2.jpg" class="img-fluid "  alt="Nikola Tesla" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen3.jpg" class="img-fluid " alt="Cisne imaginario" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen4.jpg" class="img-fluid " alt="JUICING: Mejor vivir a través de la Química" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen5.jpg" class="img-fluid " alt="Un Mariachi en la Plaza de Tiananmen" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen6.jpg" class="img-fluid " alt="La vida es algo mas que solo vivir" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen7.jpg" class="img-fluid " alt="Un Pajaro en la Mano" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen8.jpg" class="img-fluid " alt="El Final de un Día Perfecto" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen9.jpg" class="img-fluid " alt="Un mar de locos" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen10.jpg" class="img-fluid " alt="Hombre Pensante" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen11.jpg" class="img-fluid " alt="Lienzo a mano armada" onclick="selectArtwork(this)">
+    </div>
+    <div class="col-lg-3 col-6 py-3">
+      <img src="imagen12.jpg" class="img-fluid " alt="BIRDBRAIN" onclick="selectArtwork(this)">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<div id="boton">
+    <p id="selected-artwork">Seleccione una obra de arte</p>
+    <a href="#pared"><button id="overlay-button" onclick="overlayImages()" >Visualizar obra de arte en la pared</button></a>
+</div>
+
+<footer>
+  <section>
+    <a href="pagina01.html">Ir al Comienzo</a>
+    <a href="mailto:Grup0ArteGalerie@gmail.com">Contáctanos Aqui</a> 
+  </section>
+  <p>@Copyright derechos reservados</p>
+  <div id="redes">
+    <a href="https://es-la.facebook.com/"  target="_blank">
+      <i id="f" class="bi bi-facebook"> Facebook</i>
+    </a>
+    <a href="https://www.instagram.com/"  target="_blank">
+      <i id="i" class="bi bi-instagram"> Instagram</i>
+    </a>
+  </div>
+</footer>
+
+<!-- Boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
